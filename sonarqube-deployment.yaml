@@ -27,5 +27,5 @@ spec:
             - name: SONARQUBE_JDBC_URL
               value: jdbc:postgresql://sonar-postgres:5432/sonar
           ports:
-            - containerPort: 1234
+            - containerPort: 9000
               name: sonarqube
